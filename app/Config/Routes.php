@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->resource('api', ['controller' => 'ApiController']);
+$routes->setAutoRoute(true);
